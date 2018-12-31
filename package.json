@@ -28,11 +28,12 @@
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",
     "mocha": "^5.2.0",
-    "npm": "^6.5.0"
+    "npm": "^6.5.0",
+    "pretty-quick": "^1.8.0"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "lint-staged": {
