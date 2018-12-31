@@ -39,8 +39,8 @@
   "lint-staged": {
     "linters": {
       "*.{js, jsx, ts}": [
-        "node_modules/.bin/eslint *.ts --max-warnings=0",
-        "node_modules/.bin/prettier *.ts --write",
+        "eslint --max-warnings=0",
+        "prettier --write",
         "git add"
       ]
     }
