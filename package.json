@@ -40,7 +40,7 @@
     "linters": {
       "*.{js, jsx, ts}": [
         "node_modules/.bin/eslint --max-warnings=0",
-        "node_modules/.bin/prettier --write",
+        "node_modules/.bin/prettier *.ts --write",
         "git add"
       ]
     }
