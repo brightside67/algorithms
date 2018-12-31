@@ -37,12 +37,12 @@
     }
   },
   "lint-staged": {
-    "linters": {
+
       "*.{js, jsx, ts}": [
         "eslint --max-warnings=0",
         "prettier --write",
         "git add"
       ]
-    }
+
   }
 }
