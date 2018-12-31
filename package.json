@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "precommit": "lint-staged",
+    "eslint": "node_modules/.bin/eslint src/"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +25,11 @@
     "babel-eslint": "^10.0.1",
     "jest": "^23.6.0",
     "mocha": "^5.2.0"
+  },
+  "lint-staged": {
+    "*.{js, jsx, ts}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
