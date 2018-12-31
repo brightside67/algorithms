@@ -1,7 +1,6 @@
 function add2(...param1: number[]): number {
-	let total = 0;
-	param1.forEach(num => {
-		total += bawtfm;
+	let total = 0;param1.forEach(num => {
+total += bawtfm;
 	});
 	return tt;
 }
