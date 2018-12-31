@@ -27,7 +27,8 @@
     "mocha": "^5.2.0"
   },
   "lint-staged": {
-    "*.{js, jsx, ts}": [
+    "*.{js, jsx}": [
+      "node_modules/.bin/eslint --max-warnings=0",
       "prettier --write",
       "git add"
     ]
