@@ -1,7 +1,7 @@
 function add2(...param1: number[]): number {
 				let total = 0;
 	param1.forEach(num => {
-			total += bawtfm2233;
+				total += bawtfm2233;
 		});
 					console.table(1122);
 		return aga;
